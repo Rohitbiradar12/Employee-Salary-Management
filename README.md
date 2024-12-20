@@ -44,14 +44,10 @@ Make sure you have the following installed:
 ### Clone the Repository
 Clone the repository and navigate to the project directory:
 ```bash
-git clone https://github.com/your-username/employee-salary-management-system.git
+git clone https://github.com/Rohitbiradar12/Employee-Salary-Management.git
 cd employee-salary-management-system
 
 dotnet ef migrations add InitialMigration --project EmployeeService
 dotnet ef migrations add InitialMigration --project SalaryService
 dotnet ef database update --project EmployeeService
 dotnet ef database update --project SalaryService
-
-
-
-
