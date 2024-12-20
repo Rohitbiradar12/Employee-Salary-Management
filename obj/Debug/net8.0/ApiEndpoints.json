@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "SalaryService.Controllers.SalaryController",
+    "Method": "AddSalary",
+    "RelativePath": "api/Salary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salary",
+        "Type": "SalaryService.Model.Salary",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalaryService.Controllers.SalaryController",
+    "Method": "GetSalary",
+    "RelativePath": "api/Salary/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
